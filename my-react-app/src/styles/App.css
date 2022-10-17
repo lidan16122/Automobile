@@ -1,0 +1,206 @@
+/* site colors: black, white, #2B74FD */
+
+.Navigation {
+  font-size: 28px;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.Navigation a:not(:first-child) {
+  color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-decoration: none;
+  transition: 0.5s ease;
+
+}
+
+.Navigation a:hover:not(:first-child) {
+  color: #2B74FD;
+  background-color: rgba(134, 133, 133, 0.452);
+}
+
+.isActiveNav:not(:first-child) {
+  color: #2B74FD !important;
+  background-color: rgba(134, 133, 133, 0.452) !important;
+}
+
+.hamburger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  width: 100px;
+  height: 113px;
+  background-color: rgba(88, 88, 88, 0.438);
+  text-align: center;
+  padding-top: 45px;
+  color: white;
+  cursor: pointer;
+}
+
+.hamburger:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.fa {
+  font-size: 2em;
+}
+
+#siteImg {
+  padding-top: 1em;
+  padding-right: 0.5em;
+  width: 10em;
+  height: auto;
+}
+
+.error404 {
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 13em;
+  font-size: 32px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 32px;
+}
+
+.icons {
+  padding: 10px;
+  font-size: 24px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s linear;
+}
+
+.icons:hover,
+.about:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.facebook {
+  background: #3B5998;
+}
+
+.instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.whatsapp {
+  background-color: #25d365e8;
+}
+
+.email {
+  background-color: rgb(255, 43, 43);
+}
+
+.about {
+  cursor: pointer;
+  text-align: center;
+  font-size: 32px;
+  background-color: #2B74FD;
+  margin-right: 30%;
+  margin-left: 30%;
+  border-radius: 50px;
+  transition: 0.3s linear;
+
+}
+.ham-links, .go-back{
+  display: none;
+}
+
+.copyrights {
+  background-color: rgb(63, 63, 63);
+  text-align: end;
+  color: white;
+  padding-right: 0.5em;
+}
+@media only screen and (max-width: 1020px) {
+  .Navigation a:not(:first-child) {
+    display: none;
+  }
+
+  .Navigation a:first-child {
+    padding-bottom: 1em;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .ham-links {
+    display: block;
+    z-index: 2;
+    position: fixed;
+    padding-top: 10vw;
+    background-color: rgba(255, 255, 255, 0.452);
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+
+  }
+  .ham-links li:first-child{
+    border-top: 4px rgb(0, 0, 0) solid;
+  }
+  .ham-links li{
+    border-bottom: 4px rgb(0, 0, 0) solid;
+    padding-bottom: 40px;
+    cursor: pointer;
+  }
+  .ham-links li:hover{
+    background-color: rgba(65, 63, 63, 0.575);
+  }
+  .go-back{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1.5em;
+    background-color: rgba(65, 63, 63, 0.575);
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 4px;
+    margin: 5px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #siteImg{
+    margin-right: 120px;
+    width: 9em;
+    padding-left: 0;
+  }
+  .hamburger{
+    height: 108px;
+  }
+  .Navigation{
+    padding-left: 0;
+  }
+}

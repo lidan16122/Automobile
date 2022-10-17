@@ -1,0 +1,114 @@
+.comparison-img{
+    width: 100%;
+    background-image: url(../assets/carvscar2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 26vw;
+    background-size: cover;
+}
+.comparison-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.add-compare{
+    background-color: darkgray;
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    height: auto;
+    font-size: 9vw;
+    width: 100%;
+}
+.blocked{
+    visibility: hidden;
+}
+.img-pointy{
+    cursor: pointer;
+}
+.reset-button{
+    width: 7% !important;
+    flex: 0 0 auto;
+}
+.add-form{
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.add-form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.add-form h2{
+    margin-bottom: 15px;
+}
+.add-form input{
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.add-form input:hover{
+    background-color: #2B74FD;
+    color: white;
+}
+
+.comparison-table{
+    width: 90%;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.comparison-table td,th{
+    border: 1px solid #dddddd;
+    padding: 8px;
+
+}
+.comparison-table tr:nth-child(even){
+    background-color: #dddddd;
+    font-weight: bold;
+}
+@media only screen and (max-width:1400px){
+    .add-compare{
+        font-size: 14vw;
+    }
+    .comparison-table{
+        font-size: 20px;
+        margin-bottom: 200px;
+    }
+}
+@media only screen and (max-width:990px){
+    .reset-button{
+        width: 7% !important;
+    }
+    .add-compare{
+        font-size: 11vw;
+    }
+}
+@media only screen and (max-width:768px){
+    .comparison-title{
+        font-size: 36px;
+    }
+    .reset-button{
+        width: 10% !important;
+    }
+}
+@media only screen and (max-width: 480px){
+    .comparison-img{
+        height: 40vw;
+
+    }
+}

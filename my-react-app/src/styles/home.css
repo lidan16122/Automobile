@@ -1,0 +1,187 @@
+.gas{
+    background-image: url(../assets/Gas-Prices.jpg);
+}
+.chevy{
+    background-image: url(../assets/Chevy-Camaro-2023.jpg);
+}
+.tesla{
+    background-image: url(../assets/Tesla-Model-Y-2022.jpg);
+}
+.banner-title .tesla, .banner-title .chevy, .banner-title .gas{
+    padding-top: 25em;
+}
+.banner{
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    cursor: pointer;
+}
+.banner h2{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    border: #2B74FD solid 5px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding: 2px;
+}
+.banner:hover{
+    transition: 0.15s all linear;
+    transform: scale(1.05);
+    z-index: 0; 
+}
+
+.banner-title{
+    overflow: hidden;
+}
+
+.main-title{
+    border-top: 5px solid #2B74FD;
+    width: 22%;
+}
+
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   overflow: hidden; 
+}
+.card-block *{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.top-article{
+    color: black;
+    padding-top: 0.7em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+.top-article:hover{
+    color: #2B74FD;
+}
+.article-para{
+    font-size: 24px;
+}
+.card-credits{
+    padding-left: 0;
+    margin-left: 24px;
+    font-size: 24px;
+    margin-top: 150px;
+    border-top: #2B74FD 10px solid;
+    display: block;
+}
+.card-credits *{
+    margin-left: 0;
+}
+.card-credits-small{
+    position: absolute;
+    padding-left: 0;
+    margin-left: 0;
+    bottom: 0;
+    left: 0;
+}
+.card-credits-small b{
+    margin-right: 0;
+}
+.img-trans{
+    transition: 0.15s all linear;
+    cursor: pointer;
+}
+.img-trans:hover{
+    transform: scale(1.05);
+}
+.small-card{
+    padding: 0 !important;
+    width: 25em !important; 
+    margin-bottom: 5%;
+}
+.small-card-title{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-top: 0.5em;
+}
+.small-card-title:hover{
+    color: #2B74FD;
+}
+.small-para{
+    border-top: #2B74FD solid 5px;
+    margin: 0 20px;
+    margin-bottom: 16px;
+    padding-top: 1em !important;
+    padding:0 1em;
+    padding-bottom: 2em;
+    font-size: 22px;
+}
+.smallest-card{
+    padding: 0 !important;
+    width: 18em !important; 
+    margin-bottom: 5%;
+    font-weight: 700px;
+    transition: 0.15s all linear;
+}
+
+.smallest-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.smallest-card-price{
+    color: #2B74FD;
+    font-size: 24px;
+    margin-left: 0;
+}
+.smallest-card-price b{
+    color: black;
+    margin-right: 0.2em;
+
+}
+.smallest-card hr{
+    margin-right: 16px;
+}
+.smallest-card p{
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(78, 78, 78);
+}
+.card-img-top{
+    cursor: pointer;
+}
+main{
+    margin-bottom: 150px;
+}
+section hr{
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1200px){
+    .banner{
+        width: 100% !important;
+    }
+    .col-lg-6{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 992px){
+    .main-title{
+        width: 35%;
+        margin-top: 15px;
+    }
+    
+    .card{
+        margin-bottom: 70px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .main-title{
+        width: 45%;
+    }
+    .banner-title .tesla, .banner-title .chevy, .banner-title .gas{
+        padding-top: 18em;
+    }
+}
+
+
+

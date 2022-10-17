@@ -1,0 +1,15 @@
+.aboutus{
+    font-size: 20px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.aboutus p{
+    width: 75%;
+}
+.about-nav{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.about-nav:hover{
+    color: rgb(39, 39, 226);
+}

@@ -1,0 +1,110 @@
+.car-list-img{
+    width: 100%;
+    background-image: url(../assets/carnews.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: contain;
+}
+.car-news-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.car-news-card{
+    border: 1px solid darkgray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.15s all linear;
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+    color: black;
+}
+.car-news-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.car-news-card-img{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.car-news-card-img:hover{
+    transform: scale(1.05);
+}
+.car-news-card-text{
+    padding-left: 2em !important;
+    padding-right: 1.5em !important;
+    padding-top: 1.5em;
+}
+.car-news-card-text h3{
+    font-weight: bold;
+    cursor: pointer;
+}
+.car-news-card-text h3:hover{
+    color: #2B74FD;
+}
+
+.car-news-card-credits{
+    border-top: solid 5px #2B74FD;
+    padding-top: 2px;
+    position: absolute;
+    bottom: 0;
+}
+.car-news-article{
+    color: black;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+.car-news-article h2{
+    font-weight: bold;
+}
+.car-news-article p, .car-news-article ul{
+    font-size: 20px;
+}
+.car-news-article-title{
+    font-weight: bold;
+    font-size: 60px;
+}
+.car-news-article-desc{
+    font-size: 20px;
+    display: block;
+}
+.car-news-article-credits{
+    color: #2B74FD;
+}
+@media only screen  and (max-width: 1400px){
+    .col-lg-4{
+        width: 100% !important;
+    }
+    .car-news-card-text h3{
+        font-size: 32px;
+    }
+}
+
+@media only screen  and (max-width: 1200px){
+    .car-news-article .col-md-12{
+        width: 100% !important;
+    }
+    .car-news-article-img-para{
+        padding-top: 40px;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .car-news-article-title{
+        font-size: 50px;
+    }
+    .car-news-card-text p{
+        font-size: 20px;
+    }
+}
+@media only screen  and (max-width: 430px){
+    .car-news-title{
+        font-size: 44px;
+    }
+    .car-list-img{
+        height: 35vh;
+    }
+}
+
+
