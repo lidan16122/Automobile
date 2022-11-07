@@ -7,7 +7,7 @@ On this website you can browse the latest car news, explore new cars and see inf
 - On the car comparison tab, you can compare cars together to see what is the difference between them. this tab is like the car information tab but this tab is used to compare car information together and not to look up a specific car, can be useful if you debating about some cars.
 
 
-לידן ססונקר <br />
+Lidan Sassonker לידן ססונקר <br />
 D130222ER <br />
 lidan16122@gmail.com <br />
 0548193161 <br />
