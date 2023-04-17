@@ -1,4 +1,4 @@
-# ReactJS Project
+# React Project
 Hello, my project is about car information.
 On this website you can browse the latest car news, explore new cars and see information about them and even compare cars together. This information can be useful to people who don't have knowledge about cars and are interested to buy one or just browse for fun.
 - On the main tab, you can see some articles and some car cards with little information.
